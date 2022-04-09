@@ -1,0 +1,96 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+#nav{
+    width: 90%;
+    left: 3%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 8%;
+}
+#nav-left{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+#nav-right{
+    color: rgb(0, 23, 66);
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#nav-right h4{
+    font-weight: 700;
+}
+#left{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(0, 23, 66);
+}
+#right{
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(./lol.jpg);
+}
+#lol{
+    color:white;
+    top: 45%;
+    padding-left: 20px;
+    left: 3%;
+    border-left: 3px solid white;
+    position: absolute;
+}
+#bottom{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    color: white;
+}
+#lol h1{
+    font-size: 110px;
+    font-weight: 900;
+    line-height: 100px;
+    color: white;
+}
+#lol h1 span{
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.637);
+}
+#lol p {
+    font-weight: 200;
+    padding-top: 10px;
+    width: 400px;
+}
+#btm h4{
+    top: 76%;
+    left: 4%;
+    position: absolute;
+    color:black;
+    font-size: 12px;
+    text-align: center;
+    width: 5%;
+    padding: 10px 20px;
+    background-color: rgb(0, 108, 197);
+}
+#bottom i{
+    font-size: 25px;
+    padding: 0px 13px;
+}
